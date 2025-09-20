@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "index.html": {
+      "maxDuration": 10
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
